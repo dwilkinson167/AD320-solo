@@ -7,7 +7,7 @@ app.use(bodyParser.json());
 
 app.get('/users', (req, res) => {
     const articles = [];
-    // code to retrieve users ...
+    // code to retrieve users ....
     res.json(articles);
 });
 
