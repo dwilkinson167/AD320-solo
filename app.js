@@ -12,7 +12,7 @@ app.get('/users', (req, res) => {
 });
 
 app.post('/users', (req, res) => {
-    // code to add a new article...
+
     res.json(req.body);
 });
 
